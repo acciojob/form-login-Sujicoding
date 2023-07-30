@@ -1,6 +1,9 @@
 function getFormvalue(event) {
     //Write your code here
-
+const firstName = document.getElementById("fname").value;
+  const lastName = document.getElementById("lname").value;
+  alert(`First Name: ${firstName}\nLast Name: ${lastName}`);
+}
 
 function getFormValue(event) {
   event.preventDefault(); // Prevent form submission from reloading the page
